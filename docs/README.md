@@ -39,6 +39,12 @@ yarn run expoer-server
 
 You can find the source of the documentation inside the `pages/versions` directory. Documentation is mostly written in markdown with the help of some React components (for Snack embeds, etc). The routes and navbar are automatically inferred from the directory structure within `versions`.
 
+### Source tooltips
+
+Any language-appropriate comment in a markdown code block which includes the string `@info` will be transformed in the final page to an onhover/ontouch tooltip popup attached to a 💬 symbol.  These can contain html, and in the case of block comments, can be written across multiple lines.
+
+For examples, see the AuthSession files.  The implementation is in the Pre component.
+
 ### Adding Images and Assets
 
 You can add images and assets to the `static` directory.  They'll be served by the production and staging servers at `/static`.
