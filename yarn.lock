@@ -683,10 +683,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.2.34":
-  version "0.2.34"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.34.tgz#222306f492376f927f7b5d830ffbf9d0e2f400ba"
-  integrity sha512-gNYos143mxnz7FhG58kTO2P7r5Xe/GdDgPMmPyiPoFjlWZXYtyGMKCyYt0CxL2wABz8Hl773jZ5TPW24BzXmWA==
+"@expo/dev-tools@^0.2.35":
+  version "0.2.35"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.35.tgz#519b379ac997d6b01d8470644c94194fde6ba880"
+  integrity sha512-6vdiYQTc/0KK6JBN+/7V/k1oBAD27gYB30TIn99ySVwJ/7kUmpnqy/594rDpYGlOqPCg8D1f2p4X1oXFtHmu1Q==
   dependencies:
     express "4.16.4"
     freeport-async "1.1.1"
@@ -4621,7 +4621,7 @@ eslint@5.1.0:
     table "^4.0.3"
     text-table "^0.2.0"
 
-eslint@^5.4.0:
+eslint@^5.13.0:
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.13.0.tgz#ce71cc529c450eed9504530939aa97527861ede9"
   integrity sha512-nqD5WQMisciZC5EHZowejLKQjWGuFS5c70fxqSKlnDME+oz9zmE8KTlX+lHSg+/5wsC/kf9Q9eMkC8qS3oM2fg==
@@ -4881,13 +4881,13 @@ expo-asset-utils@^0.0.4-alpha.2:
   resolved "https://registry.yarnpkg.com/expo-asset-utils/-/expo-asset-utils-0.0.4-alpha.3.tgz#557aa99e394d6e4e6a369914b7e040a414588e78"
   integrity sha512-COMyBrFN2719uTR6c+OnpZmjG8ox2Ipa+t4VHOmrA2ErYxtIYAZs4OcYXe+1Zjn8TlUoQ3B2VC8AofB/P9h7yw==
 
-expo-cli@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.7.1.tgz#e0f3f8d41e83b3dcc6d1a9815fbbabea89dbc4b3"
-  integrity sha512-K0wVifU7g3Q1p8CQ/xWnmUCiY32AUluSwqyXVMlefdp7LtGoCzVSx/Ig/Og/uyKkC9uzQ/gwv1+jaXXofDgyuw==
+expo-cli@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.8.0.tgz#9dc8caffc0612374408438d752cbc9de59ad7320"
+  integrity sha512-rj9H9MC1S8QxPlFbi8hHil+/Ir+Krt3ucwhMz2P2B7MZGzGrwDSOMZQPlFHNN+g0unAX9NuKAhaDIIGI1MRyZg==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.2.34"
+    "@expo/dev-tools" "^0.2.35"
     "@expo/json-file" "8.1.0"
     "@expo/simple-spinner" "1.0.2"
     "@expo/spawn-async" "1.3.0"
@@ -4921,7 +4921,7 @@ expo-cli@^2.7.1:
     untildify "3.0.3"
     validator "10.5.0"
     wordwrap "1.0.0"
-    xdl "^52.1.1"
+    xdl "^52.1.2"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.7.1"
     "@expo/traveling-fastlane-linux" "1.7.1"
@@ -4984,7 +4984,7 @@ extend-shallow@^2.0.1:
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
   integrity sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=
 
-extend-shallow@^3.0.0, extend-shallow@^3.0.2:
+extend-shallow@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-3.0.2.tgz#26a71aaf073b39fb2127172746131c2704028db8"
   integrity sha1-Jqcarwc7OfshJxcnRhMcJwQCjbg=
@@ -6761,7 +6761,7 @@ is-equal-shallow@^0.1.3:
   dependencies:
     is-primitive "^2.0.0"
 
-is-extendable@^0.1.0, is-extendable@^0.1.1:
+is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
   integrity sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik=
@@ -9916,7 +9916,7 @@ prettier@1.13.6:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.6.tgz#00ae0b777ad92f81a9e7a1df2f0470b6dab0cb44"
   integrity sha512-p5eqCNiohWZN++7aJXUVj0JgLqHCPLf9GLIcLBHGNWs4Y9FJOPs6+KNO2WT0udJIQJTbeZFrJkjzjcb8fkAYYQ==
 
-prettier@^1.14.2:
+prettier@^1.16.4:
   version "1.16.4"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
   integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
@@ -13594,10 +13594,10 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^52.1.1:
-  version "52.1.1"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.1.1.tgz#dc496ebce225a43a9647a93064c4392c9a6df6d4"
-  integrity sha512-g7nCDFGMWmcKIVzWIZ31gw2jo8GutRgjZsXzl+Fwy6O1mcgbz4WvVqSAfCRoxBFYHWzTMMkW2cdhc+mr0N6+tw==
+xdl@^52.1.2:
+  version "52.1.2"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.1.2.tgz#fff3679305928284c4e10f3680c6341567b1757c"
+  integrity sha512-C4CL2GOjBmh6qU7DBH5sP9SqtLY8s2CaX+EECM4uPY2Wbblk8b8TsVemgo5YFRhbwZvm5j+n4vazgmekqHo+KQ==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "8.1.0"

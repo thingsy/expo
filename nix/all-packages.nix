@@ -1,12 +1,6 @@
 self: super:
 
 {
-  xcpretty = assert !(builtins.hasAttr "xcpretty" super); super.bundlerApp {
-    pname = "xcpretty";
-    gemdir = ./xcpretty;
-    exes = [ "xcpretty" ];
-  };
-
   nodejs = super.nodejs-10_x;
 
   yarn2nix-src = super.fetchFromGitHub {
